@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Palindrome Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card" aria-live="polite">
+<h1>Palindrome Checker</h1>
+<p class="sub">Type a word, sentence, or number.<br> Spaces, punctuation, and case are ignored.</p>
+
+
+<div class="row">
+<input id="text" type="text" placeholder="Try: Never odd or even" autocomplete="off" />
+<button id="checkBtn" title="Check (Enter)">Check</button>
+<button id="clearBtn" class="secondary" title="Clear">Clear</button>
+</div>
+
+
+<section id="result" class="result" hidden>
+<span id="badge" class="badge" aria-hidden="true"></span>
+<div>
+<div id="statusPill" class="pill"><span class="dot"></span><span id="statusText">Result</span></div>
+<div class="lines" style="margin-top:8px">
+<div><strong>Cleaned:</strong> <span id="cleaned"></span></div>
+<div><strong>Reversed:</strong> <span id="reversed"></span></div>
+</div>
+</div>
+</section>
+
+
+<p class="hint">Tip: Press <kbd>Enter</kbd> to check. Valid examples: <em>Racecar</em>, <em>A man, a plan, a canal: Panama!</em></p>
+
+
+<div class="history" id="history" hidden>
+<strong>Recent checks</strong>
+<ul id="historyList"></ul>
+</div>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
