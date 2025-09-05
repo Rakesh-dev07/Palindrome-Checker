@@ -43,7 +43,7 @@ Enter text in the input field and click Check.
 https://rakesh-dev07.github.io/Palindrome-Checker/?utm_source=chatgpt.com
 
 📸 Screenshot
-(<img width="1028" height="667" alt="image" src="https://github.com/user-attachments/assets/8e2c7c76-6625-4d0f-958d-8350516e485b" />)
+<img width="1028" height="667" alt="image" src="https://github.com/user-attachments/assets/8e2c7c76-6625-4d0f-958d-8350516e485b" />
 
 Example placeholder:
 
@@ -56,3 +56,4 @@ Add keyboard support (Enter key to check)
 
 📜 License
 This project is open-source under the MIT License.
+
