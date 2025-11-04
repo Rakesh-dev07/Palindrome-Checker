@@ -4,6 +4,12 @@ A simple and stylish web app that checks if a given text is a **palindrome**.
 Built with **HTML, CSS, and JavaScript**.
 
 ---
+🌐 Live Demo
+👉 Click here to try it out 
+[Palindrome Checker](https://rakesh-dev07.github.io/Palindrome-Checker/)
+
+📸 Screenshot
+<img width="1028" height="667" alt="image" src="https://github.com/user-attachments/assets/8e2c7c76-6625-4d0f-958d-8350516e485b" />
 
 ## ✨ Features
 - ✅ Input box and button to check for palindromes  
@@ -22,38 +28,30 @@ Built with **HTML, CSS, and JavaScript**.
 ---
 
 ## 📂 Project Structure
+```
 Palindrome-Checker/
 │── index.html # Main HTML file
 │── style.css # Styling
 │── script.js # Logic
 │── README.md # Project documentation
-
+```
 ---
 
 ## ▶️ How to Use
-1. Clone the repository:
-   ```bash
+ Clone the repository:
+   ```
    git clone https://github.com/Rakesh-dev07/Palindrome-Checker.git
-Open index.html in your browser.
+   
+   Open index.html in your browser.
 
-Enter text in the input field and click Check.
+   Enter text in the input field and click Check.
+   ```
+🚀 Future Improvements 
 
-🌐 Live Demo
-👉 Click here to try it out 
-https://rakesh-dev07.github.io/Palindrome-Checker/?utm_source=chatgpt.com
-
-📸 Screenshot
-<img width="1028" height="667" alt="image" src="https://github.com/user-attachments/assets/8e2c7c76-6625-4d0f-958d-8350516e485b" />
-
-Example placeholder:
-
-🚀 Future Improvements
 Add a dark/light theme toggle 🌙☀️
 
-Show history of checked words
-
-Add keyboard support (Enter key to check)
 
 📜 License
 This project is open-source under the MIT License.
+
 
